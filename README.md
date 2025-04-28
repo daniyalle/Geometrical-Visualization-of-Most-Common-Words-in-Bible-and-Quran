@@ -1,7 +1,8 @@
 # Geometrical-Visualization-of-Most-Common-Words-in-Bible-and-Quran
 ![image](https://github.com/user-attachments/assets/8ed96897-75d6-41e2-a958-56932f0244cb)
 
-Introduction
+Introduction:
+
 This project presents a mathematical and creative approach to visualizing the most frequent words in the Bible and Quran.
 Rather than relying on traditional word clouds or frequency histograms, this project uses coordinate transformations, Gaussian density modeling, and heatmap generation to create an expressive, spatial representation of word prominence.
 *The database used in this visualization was generated using my previous work:
