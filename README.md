@@ -5,8 +5,9 @@ Introduction:
 
 This project presents a mathematical and creative approach to visualizing the most frequent words in the Bible and Quran.
 Rather than relying on traditional word clouds or frequency histograms, this project uses coordinate transformations, Gaussian density modeling, and heatmap generation to create an expressive, spatial representation of word prominence.
+
 *The database used in this visualization was generated using my previous work:
-Document Analysis Platform with OCR, Database Management, and Levenshtein Fuzzy Search.
+[Document Analysis Platform with OCR, Database Management, and Levenshtein Fuzzy Search.](https://github.com/daniyalle/Document-Analysis-Platform-with-OCR-Database-Management-and-Levenshtein-Fuzzy-Search)
 
 Mathematical Framework
 This project is built on several mathematical and computational foundations:
