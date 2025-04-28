@@ -15,20 +15,20 @@ This project is built on several mathematical and computational foundations:
 1. Data Preparation
 •	Word frequency and spatial data (average x, y positions and standard deviations) are obtained from pre-processed document analysis.
 •	Centroid information is used as the basis for computing relative positions in the visualization.
-2. Global Center Calculation
+3. Global Center Calculation
 •	A global center is computed by averaging the x and y centroid values across all words.
 •	This acts as the anchor point for all further spatial adjustments.
-3. Angle and Vector Computation
+4. Angle and Vector Computation
 •	For each word, a vector from the global center is calculated.
 •	The angle (in degrees) of each vector is determined using the arctangent function (arctan2), ensuring that the directional placement of words is mathematically meaningful rather than arbitrary.
-4. Angle Adjustment Algorithm
+5. Angle Adjustment Algorithm
 •	To prevent overlapping or overly clustered word placement, angles are adjusted using a custom function that ensures a minimum angular separation.
 •	This adjustment guarantees both visual clarity and structural balance in the final plot.
 •	The minimum angle difference is not hardcoded; it is adjustable and should be tuned based on a "try and see" method depending on dataset density.
-5. Scaling
+6. Scaling
 •	A scaling factor is applied to the resultant vectors to spread the words outward from the global center at visually appealing distances.
 •	Again, the scale is deliberately adjustable based on empirical visual evaluation rather than fixed numerical values.
-6. Fog Map (Gaussian Density Modeling)
+7. Fog Map (Gaussian Density Modeling)
 •	Each word contributes a Gaussian-shaped "fog" centered at its computed location.
 •	The standard deviations of the Gaussian functions are derived from the spatial variances in the original data, with additional non-linear scaling applied to enhance visual differentiation.
 •	A gamma correction step is applied afterward to adjust the contrast of the resulting density map.
