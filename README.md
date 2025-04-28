@@ -1,0 +1,1 @@
+# Geometrical-Visualization-of-Most-Common-Words-in-Bible-and-Quran
