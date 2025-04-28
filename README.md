@@ -33,7 +33,8 @@ This project is built on several mathematical and computational foundations:
 •	The standard deviations of the Gaussian functions are derived from the spatial variances in the original data, with additional non-linear scaling applied to enhance visual differentiation.
 •	A gamma correction step is applied afterward to adjust the contrast of the resulting density map.
 ________________________________________
-Visualization Strategy
+Visualization Strategy:
+
 The visualization process follows these principles:
 •	Semantic Positioning:
 Words are positioned relative to a global center based on calculated vector directions rather than random scatter, creating a coherent spatial structure.
